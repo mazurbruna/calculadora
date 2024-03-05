@@ -1,3 +1,16 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 	<head>
+<meta charset="utf-8">
+		<title>Calculadora</title>		
+		<script src="calculadora.js"></script>
+	</head>
+	<body bgcolor="beige">
+		<h1>Calculadora 1.0</h1>
+		<input type="text" id="txtValor1">
+			<select id="operadores" onchange="ControleDeSelecao();">
+				<optgroup label="Basico">
+					<option value="+">	+(somar)</option>
+					<option value="-">	-(subtrair)</option>
+					<option value="*">	*(multiplicar)</option>
+					<option value="/">	/(dividir)</option>
